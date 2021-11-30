@@ -1,13 +1,16 @@
 <template>
-<div>
-  <h1>HOME</h1>
+<div style="height: 40vh">
+  <BaseBar />
 </div>
 </template>
 
 <script>
-export default {
-  name: "Home"
-}
+import {ref,defineComponent} from 'vue'
+import BaseBar from '../components/charts/BaseBar.vue'
+export default defineComponent({
+  name: "Home",
+  components:{BaseBar}
+})
 </script>
 
 <style scoped>
