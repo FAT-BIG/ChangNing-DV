@@ -13,6 +13,7 @@
 
 <script>
 import {defineComponent} from 'vue'
+
 export default defineComponent({
   name: "Card",
   props: {
@@ -28,12 +29,9 @@ export default defineComponent({
 .card {
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(0, 246, 255, .2);
-  border-radius: 8px;
-  background: rgba(9, 14, 90, .5);
-  box-shadow: inset 0 0 50px 0 rgba(10, 180, 190, .4);
-  padding-bottom: 8px;
-  // min-height: 320px;
+  padding: 16px;
+  background-color: rgba(13, 25, 57, 0);
+  box-shadow: inset 0px 0px 88.35px 6.65px rgba(16, 108, 222, 0.22), inset 0px 0px 11.2px 2.8px rgba(0, 114, 255, 0.8);
 
   .card-header {
     position: relative;
