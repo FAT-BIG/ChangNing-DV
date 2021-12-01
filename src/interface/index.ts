@@ -3,5 +3,5 @@ export interface ChartOption {
     tooltip: object
     xAxis: object
     yAxis: object,
-    series: object[]
+    series?: object[]
 }
