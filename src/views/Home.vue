@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <GlobalHeader/>
     <div style="width: 25%;height: 240px;">
       <card></card>
     </div>
@@ -9,10 +10,11 @@
 
 <script>
 import {ref, defineComponent} from 'vue'
+import GlobalHeader from '../components/header/Index.vue'
 
 export default defineComponent({
   name: "Home",
-
+  components: {GlobalHeader},
   setup() {
     return {}
   }

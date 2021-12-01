@@ -1,0 +1,50 @@
+<svg id="main-boder" xmlns="http://www.w3.org/2000/svg" width="175.938" height="1281" viewBox="0 0 175.938 1281">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #038bff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        opacity: 0.5;
+      }
+
+      .cls-3 {
+        opacity: 0.3;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #038bff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <path id="圆角矩形_1_拷贝" data-name="圆角矩形 1 拷贝" class="cls-1" d="M42.375,94.771h1.25V1326.23h-1.25V94.771Zm-0.144.107L77.521,71.56l0.637,1.262L42.868,96.139ZM42.351,1326.04l35.055,23.49,0.633-1.27-35.055-23.49Z" transform="translate(-20.5 -70)"/>
+  <path id="矩形_13" data-name="矩形 13" class="cls-1" d="M76.751,71.446H128.97v1.446H76.751V71.446Z" transform="translate(-20.5 -70)"/>
+  <path id="矩形_13_拷贝" data-name="矩形 13 拷贝" class="cls-1" d="M76.751,1348.11H128.97v1.44H76.751v-1.44Z" transform="translate(-20.5 -70)"/>
+  <path id="矩形_13_拷贝_2" data-name="矩形 13 拷贝 2" class="cls-1" d="M83.095,1345.15H195.159v1.45H83.095v-1.45Z" transform="translate(-20.5 -70)"/>
+  <path id="矩形_13_拷贝_4" data-name="矩形 13 拷贝 4" class="cls-1" d="M84.407,77.293H196.44v1.446H84.407V77.293Z" transform="translate(-20.5 -70)"/>
+  <g id="组_5" data-name="组 5">
+    <path id="矩形_14" data-name="矩形 14" class="cls-1" d="M136.627,70h3.781v4.4h-3.781V70Z" transform="translate(-20.5 -70)"/>
+    <path id="矩形_14_拷贝" data-name="矩形 14 拷贝" class="cls-2" d="M146.783,70H150.6v4.4h-3.812V70Z" transform="translate(-20.5 -70)"/>
+    <path id="矩形_14_拷贝_2" data-name="矩形 14 拷贝 2" class="cls-3" d="M156.971,70h3.843v4.4h-3.843V70Z" transform="translate(-20.5 -70)"/>
+  </g>
+  <g id="组_5_拷贝_2" data-name="组 5 拷贝 2">
+    <path id="矩形_14-2" data-name="矩形 14" class="cls-1" d="M136.627,1346.6h3.781v4.4h-3.781v-4.4Z" transform="translate(-20.5 -70)"/>
+    <path id="矩形_14_拷贝-2" data-name="矩形 14 拷贝" class="cls-2" d="M146.783,1346.6H150.6v4.4h-3.812v-4.4Z" transform="translate(-20.5 -70)"/>
+    <path id="矩形_14_拷贝_2-2" data-name="矩形 14 拷贝 2" class="cls-3" d="M156.971,1346.6h3.843v4.4h-3.843v-4.4Z" transform="translate(-20.5 -70)"/>
+  </g>
+  <g id="组_4" data-name="组 4">
+    <path id="矩形_12" data-name="矩形 12" class="cls-1" d="M36,335.239l7.64-11.659V425.593L36,413.934v-78.7Z" transform="translate(-20.5 -70)"/>
+    <path id="矩形_12_拷贝" data-name="矩形 12 拷贝" class="cls-1" d="M36,988.121l7.64-11.659V1078.48L36,1066.82v-78.7Z" transform="translate(-20.5 -70)"/>
+    <path id="矩形_13_拷贝_3" data-name="矩形 13 拷贝 3" class="cls-1" d="M29.633,650.021l5.094-5.829v16.03H29.633v-10.2Zm0,24.289h5.094v14.573H29.633V674.31Zm0,29.389h5.094v14.574H29.633V703.7Zm0,27.933h5.094v17.487l-5.094-5.829V731.632Z" transform="translate(-20.5 -70)"/>
+    <path id="形状_25" data-name="形状 25" class="cls-4" d="M37.274,599.015v32.061l-15.281,16.03v97.641l15.281,16.031v32.061" transform="translate(-20.5 -70)"/>
+  </g>
+</svg>
