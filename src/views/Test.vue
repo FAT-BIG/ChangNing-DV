@@ -1,5 +1,8 @@
 <template>
-  <base-bar height="40vh" width="640px"/>
+  <circle-progress :percent="20"
+                   :viewport="true"
+                   :show-percent="true"
+                   :is-gradient="true"/>
 </template>
 
 <script>

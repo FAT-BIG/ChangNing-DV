@@ -11,8 +11,8 @@
 
 import {defineComponent, ref, reactive, computed, nextTick, onMounted} from 'vue'
 import * as echarts from "echarts"
-import {resize} from './_utils/resize'
-import {uuid} from './_utils/uuid'
+import {resize} from '../_utils/resize'
+import {uuid} from '../_utils/uuid'
 
 export default defineComponent({
   name: "BaseBar",

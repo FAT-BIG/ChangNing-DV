@@ -10,8 +10,8 @@
 <script lang="ts">
 import {defineComponent, reactive, nextTick, onMounted, watch, computed} from 'vue'
 import * as echarts from 'echarts'
-import {resize} from './_utils/resize'
-import {uuid} from './_utils/uuid'
+import {resize} from '../_utils/resize'
+import {uuid} from '../_utils/uuid'
 
 export default defineComponent({
   name: "ChartWrapper",
