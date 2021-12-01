@@ -21,13 +21,13 @@
 
 <script>
 import {ref, defineComponent} from 'vue'
-import BaseBar from '../components/charts/BaseBar.vue'
+// import BaseBar from '../components/kits/charts/BaseBar.vue'
 // import ScrollList from '../components/kits/ScrollList.vue'
 
 export default defineComponent({
   name: "Home",
   components: {
-    BaseBar,
+    // BaseBar,
     // ScrollList
   },
   setup() {

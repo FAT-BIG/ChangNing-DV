@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <H1>Test</H1>
-  </div>
+  <base-bar height="40vh" width="640px"/>
 </template>
 
 <script>
