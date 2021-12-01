@@ -1,8 +1,8 @@
 export const GRADIENT = {
-    angle: 0,
-    startColor: "#ff0000",
-    stopColor: "#ffff00"
-};
+    angle: 15,
+    startColor: "#01a7eb",
+    stopColor: "#2576e8"
+}
 
 export const SHADOW = {
     inset: false,
@@ -11,7 +11,7 @@ export const SHADOW = {
     blur: 10,
     opacity: 0.5,
     color: "#000000"
-};
+}
 
 export const BG_SHADOW = {
     inset: true,
@@ -20,4 +20,4 @@ export const BG_SHADOW = {
     blur: 3,
     opacity: 0.4,
     color: "#000000"
-};
+}

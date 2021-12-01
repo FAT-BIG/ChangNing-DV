@@ -1,5 +1,5 @@
 <template>
-  <div ref="elem" v-bind="wrapAttr" class="vue3-circular-progressbar">
+  <div ref="elem" v-bind="wrapAttr" class="circular-progressbar">
     <svg v-bind="svgAttr">
       <linearGradient v-if="isGradient" v-bind="gradientAttr">
         <stop v-bind="gradientStartAttr"/>
@@ -44,41 +44,29 @@
         </filter>
       </template>
     </svg>
-    <span v-if="showPercent" class="current-counter">{{ currentPercent }}</span>
+    <div v-if="showPercent" class="current-counter">{{ currentPercent }}%</div>
   </div>
 </template>
 
 <script>
 import {computed, ref, onMounted, onBeforeUnmount, watch} from 'vue'
-import {GRADIENT, SHADOW, BG_SHADOW} from './_utils/circleStyle'
-
-function uuid(prefix = "", suffix = "") {
-  return (
-      prefix +
-      Math.random()
-          .toString(36)
-          .substring(2, 8) +
-      Math.random()
-          .toString(36)
-          .substring(2, 8) +
-      suffix
-  )
-}
+import {GRADIENT, SHADOW, BG_SHADOW} from '../_utils/circleStyle'
+import {uuid} from '../_utils/uuid'
 
 export default {
   name: "CircleProgress",
   props: {
     size: {
       type: Number,
-      default: 180
+      default: 80
     },
     borderWidth: {
       type: Number,
-      default: 15
+      default: 8
     },
     borderBgWidth: {
       type: Number,
-      default: 15
+      default: 1
     },
     fillColor: {
       type: String,
@@ -86,11 +74,11 @@ export default {
     },
     emptyColor: {
       type: String,
-      default: "#dddddd"
+      default: "#143e8f"
     },
     background: {
       type: String,
-      default: "none"
+      default: "rgba(255,255,255,.05)"
     },
     className: {
       type: String,
@@ -110,7 +98,7 @@ export default {
     },
     isGradient: {
       type: Boolean,
-      default: false
+      default: true
     },
     gradient: {
       type: Object,
@@ -149,9 +137,9 @@ export default {
     }
   },
   setup(props) {
-    const uid1 = uuid("grd_")
-    const uid2 = uuid("shd1_")
-    const uid3 = uuid("shd2_")
+    const uid1 = uuid()
+    const uid2 = uuid()
+    const uid3 = uuid()
     const elem = ref(null)
     const currentPercent = ref(0)
     const gradient = {...GRADIENT, ...props.gradient}
@@ -184,7 +172,7 @@ export default {
     }
     const svgAttr = {
       style: {
-        transform: "rotate(-90deg)",
+        transform: "rotate(180deg)",
         overflow: "visible"
       },
       xmlns: "http://www.w3.org/2000/svg",
@@ -354,15 +342,18 @@ export default {
 }
 </script>
 
-<style scoped>
-.vue3-circular-progressbar {
+<style lang="scss" scoped>
+.circular-progressbar {
   position: relative;
+
+  .current-counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    color: $text-color-blue;
+    font-weight: bold;
+  }
 }
 
-.vue3-circular-progressbar .current-counter {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 </style>

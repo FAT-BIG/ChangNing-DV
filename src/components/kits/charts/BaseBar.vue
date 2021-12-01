@@ -11,6 +11,7 @@
 
 import {defineComponent, ref, reactive, computed, nextTick, onMounted} from 'vue'
 import * as echarts from "echarts"
+import {ChartOption} from '../../../interface'
 import {resize} from '../_utils/resize'
 import {uuid} from '../_utils/uuid'
 
@@ -112,8 +113,8 @@ export default defineComponent({
   },
   emits: ['click'],
   setup(props, ctx) {
-    const chartId = computed(() => `chart-${uuid()}`)
-    const option = reactive({
+    const chartId = uuid('chart-')
+    const option = reactive<ChartOption>({
       color: props.colors,
       tooltip: {
         show: true,
@@ -142,8 +143,8 @@ export default defineComponent({
     })
 
     const chartInit = () => {
-      const ele = document.getElementById(chartId.value)
-      const resizeDiv = document.getElementById(chartId.value)
+      const ele = document.getElementById(chartId)
+      const resizeDiv = document.getElementById(chartId)
       const chart = echarts.init(ele)
       chart.off('click')
       chart.setOption(option, true)
