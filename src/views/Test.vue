@@ -1,4 +1,5 @@
 <template>
+  <card />
   <circle-progress :percent="40.25"
                    :show-percent="true"
                    :is-gradient="true"/>
