@@ -3,6 +3,7 @@
                    :show-percent="true"
                    :is-gradient="true"/>
   <base-bar height="320px" :data-source="barData" @click="handleClick"/>
+  <base-pie />
   <scroll-list hover :step="0.3" :list="listData" class="scroll-list">
     <div>
       <template v-for="(item,index) in listData">

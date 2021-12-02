@@ -41,19 +41,13 @@ export default defineComponent({
     dataSource: {
       type: Object,
       default: () => {
-        return {
-          names: ['2012', '2013', '2014', '2015', '2016'],
-          data: [
-            {
-              name: 'Steppe',
-              value: [320, 332, 301, 334, 390]
-            },
-            {
-              name: 'Jerry',
-              value: [120, 600, 480, 97, 128]
-            }
-          ]
-        }
+        return [
+          {value: 1048, name: 'Search Engine'},
+          {value: 735, name: 'Direct'},
+          {value: 580, name: 'Email'},
+          {value: 484, name: 'Union Ads'},
+          {value: 300, name: 'Video Ads'}
+        ]
       }
     },
     /**
@@ -82,36 +76,6 @@ export default defineComponent({
       default: () => {
         return []
       }
-    },
-    /**
-     * @description 是否堆栈图
-     * @type Boolean
-     * @default stack = false
-     * @example :stack = "true"
-     */
-    stack: {
-      type: Boolean,
-      default: false
-    },
-    /**
-     * @description 图例位置 top | bottom
-     * @type String
-     * @default legendPosition = 'top'
-     * @example legendPosition = 'top'
-     */
-    legendPosition: {
-      type: String,
-      default: 'top'
-    },
-    /**
-     * @description 是否显示图例
-     * @type Boolean
-     * @default showLegend = false
-     * @example showLegend
-     */
-    showLegend: {
-      type: Boolean,
-      default: true
     },
     /**
      * @description x轴文字换行字数
@@ -149,16 +113,6 @@ export default defineComponent({
     const chartId = uuid('chart-')
     const option = reactive({
       color: props.colors,
-      legend: {
-        show: props.showLegend,
-        bottom: props.legendPosition === 'bottom' ? 'bottom' : null,
-        icon: 'circle',
-        textStyle: {
-          color: '#fff',
-          fontSize: 14
-        },
-        itemGap: 24
-      },
       tooltip: {
         show: true,
         trigger: 'axis',
@@ -169,21 +123,27 @@ export default defineComponent({
           fontSize: 12
         }
       },
-      xAxis: {
-        type: 'category',
-        data: props.dataSource.names
-      },
-      yAxis: {
-        type: 'value'
-      },
-      series: props.dataSource.data.map((item) => {
-        return {
-          name: item.name,
-          type: 'bar',
-          barMaxWidth: props.barMaxWidth,
-          data: item.value
-        }
-      })
+      series: {
+        name: 'Access From',
+        type: 'pie',
+        radius: ['40%', '70%'],
+        avoidLabelOverlap: false,
+        label: {
+          show: false,
+          position: 'center'
+        },
+        emphasis: {
+          label: {
+            show: false,
+            fontSize: '40',
+            fontWeight: 'bold'
+          }
+        },
+        labelLine: {
+          show: false
+        },
+        data: props.dataSource
+      }
     })
     const chartInit = () => {
       const ele = document.getElementById(chartId)

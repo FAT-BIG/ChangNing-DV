@@ -35,6 +35,7 @@ export default defineComponent({
     align-items: center;
     color: $text-color;
     font-size: 16px;
+    background-color: rgb(22, 48, 128);
   }
 }
 
