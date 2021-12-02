@@ -4,9 +4,11 @@
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   background: #00063e;
 }
+
 li {
   list-style: none;
 }
@@ -19,56 +21,6 @@ a {
 
 area {
   outline: none;
-}
-
-.base {
-  //background: linear-gradient(180deg, rgba(15, 45, 90, .8) 0%, rgba(6, 19, 46, .5) 100%);
-  position: relative;
-  background: linear-gradient(180deg, rgba(15, 45, 90, .95) 0%, rgba(6, 19, 46, .99) 100%);
-  border: 1px solid rgba(48, 110, 243, .2);
-  border-radius: 6px;
-  padding-bottom: 12px;
-  box-sizing: border-box;
-  overflow: hidden;
-  margin-bottom: 16px;
-  //box-shadow: inset 0 0 40px 0 rgba(48, 110, 243, .5);
-}
-
-.border {
-  background: rgba(15, 46, 96, .2);
-  border: 1px solid #4E78A4;
-  padding: 0 16px;
-  box-sizing: border-box;
-
-  &:not(:last-child) {
-    margin-bottom: 12px;
-  }
-}
-
-[class^="side-"] {
-  position: absolute;
-  width: 1256px;
-  height: 976px;
-  padding: 0 8px;
-  box-sizing: border-box;
-  overflow: hidden;
-  top: 88px;
-  z-index: 999;
-  color: #fff;
-}
-
-.side-left {
-  left: 0;
-}
-
-.side-right {
-  right: 0;
-}
-
-.chart-group {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .row {
@@ -396,15 +348,6 @@ area {
 .el-loading-mask {
   background: linear-gradient(180deg, rgba(15, 45, 90, 0.95) 0%, rgba(6, 19, 46, 0.99) 100%);
   border: 1px solid rgba(48, 110, 243, 0.2);
-}
-
-.chart-title {
-  font-size: 20px;
-  line-height: 1.6;
-  color: #49F9F6;
-  font-weight: 400;
-  text-align: center;
-
 }
 
 .el-select {

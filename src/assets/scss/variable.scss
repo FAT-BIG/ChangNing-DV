@@ -10,3 +10,7 @@ $color-green: #00CE7D;
 $color-green-light: rgba(0, 206, 125, 0.30);
 $color-blue: #306EF3;
 $color-blue-light: rgba(48, 110, 243, .2);
+
+@function unit($n) {
+  @return $n * calc((100 / 2408) * 1vw);
+}

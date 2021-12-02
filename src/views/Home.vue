@@ -28,24 +28,25 @@ export default defineComponent({
   height: 100vh;
   background: url("../assets/img/main-bg.jpg") no-repeat center;
   background-size: cover;
+  overflow: hidden;
 
   &::before,
   &::after {
     position: absolute;
-    top: 64px;
+    top: 2.4vw;
     content: '';
-    width: 72px;
-    height: calc(100% - 88px);
+    width: unit(152);
+    height: unit(1280);
     background: url("../assets/img/main-boder.svg") no-repeat;
     background-size: cover;
   }
 
   &::before {
-    left: 16px;
+    left: unit(16);
   }
 
   &::after {
-    right: 16px;
+    right: unit(16);
     transform: scale(-1);
   }
 }

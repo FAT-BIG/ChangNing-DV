@@ -10,9 +10,10 @@ export default {
 
 <style lang="scss" scoped>
 .header{
-  width: 100%;
-  height: 66px;
-  background:#00307c url("../../assets/img/header-bg.svg");
+  width: 80vw;
+  height: unit(88);
+  background: url("../../assets/img/header-bg.svg") no-repeat center;
   background-size: cover;
+  margin: 0 auto;
 }
 </style>

@@ -66,31 +66,31 @@
       <feBlend result="blend" in2="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="组_2" data-name="组 2">
-    <path id="矩形_3" data-name="矩形 3" class="cls-1" d="M1920.43,47.364h-259.3l-79.09,56.4H827.185L750.1,47.364H489.8" transform="translate(-50.531)"/>
+  <g id="group_2" data-name="组 2">
+    <path id="rect_3" data-name="rect 3" class="cls-1" d="M1920.43,47.364h-259.3l-79.09,56.4H827.185L750.1,47.364H489.8" transform="translate(-50.531)"/>
     <g transform="translate(-50.531)" style="fill: #fff; filter: url(#filter)">
-      <path id="矩形_4" data-name="矩形 4" class="cls-2" d="M1531.68,89.668h69.39l-19.72,14.1h-69.39Z" style="stroke: inherit; filter: none; fill: inherit"/>
+      <path id="rect_4" data-name="rect 4" class="cls-2" d="M1531.68,89.668h69.39l-19.72,14.1h-69.39Z" style="stroke: inherit; filter: none; fill: inherit"/>
     </g>
-    <use transform="translate(-50.531)" xlink:href="#矩形_4" style="stroke: #038bff; filter: none; fill: none"/>
-    <path id="矩形_4_拷贝_8" data-name="矩形 4 拷贝 8" class="cls-3" d="M1783.38,69.524h556l-6.3,4.029h-556Z" transform="translate(-50.531)"/>
-    <path id="矩形_4_拷贝_7" data-name="矩形 4 拷贝 7" class="cls-3" d="M1660.43,46.357h261l-5.3,4.029h-261Z" transform="translate(-50.531)"/>
-    <path id="矩形_4_拷贝_12" data-name="矩形 4 拷贝 12" class="cls-3" d="M749.805,46.357h-261l5.3,4.029h261Z" transform="translate(-50.531)"/>
-    <path id="形状_23" data-name="形状 23" class="cls-4" d="M2087.44,69.524V70.53H1783.09V69.524h304.35Z" transform="translate(-50.531)"/>
+    <use transform="translate(-50.531)" xlink:href="#rect_4" style="stroke: #038bff; filter: none; fill: none"/>
+    <path id="rect_4_copy_8" data-name="rect_4_copy_ 8" class="cls-3" d="M1783.38,69.524h556l-6.3,4.029h-556Z" transform="translate(-50.531)"/>
+    <path id="rect_4_copy_7" data-name="rect_4_copy_ 7" class="cls-3" d="M1660.43,46.357h261l-5.3,4.029h-261Z" transform="translate(-50.531)"/>
+    <path id="rect_4_copy_12" data-name="rect_4_copy_ 12" class="cls-3" d="M749.805,46.357h-261l5.3,4.029h261Z" transform="translate(-50.531)"/>
+    <path id="shape_23" data-name="shape 23" class="cls-4" d="M2087.44,69.524V70.53H1783.09V69.524h304.35Z" transform="translate(-50.531)"/>
     <g transform="translate(-50.531)" style="fill: #fff; filter: url(#filter-2)">
-      <path id="矩形_4_拷贝_3" data-name="矩形 4 拷贝 3" class="cls-5" d="M884.25,95.711l638.73,1.007-9.7,7.05H895.262Z" style="stroke: inherit; filter: none; fill: inherit"/>
+      <path id="rect_4_copy_3" data-name="rect_4_copy_ 3" class="cls-5" d="M884.25,95.711l638.73,1.007-9.7,7.05H895.262Z" style="stroke: inherit; filter: none; fill: inherit"/>
     </g>
-    <use transform="translate(-50.531)" xlink:href="#矩形_4_拷贝_3" style="stroke: #038bff; filter: none; fill: none"/>
+    <use transform="translate(-50.531)" xlink:href="#rect_4_copy_3" style="stroke: #038bff; filter: none; fill: none"/>
     <g transform="translate(-50.531)" style="fill: #fff; filter: url(#filter-3)">
-      <path id="矩形_4_拷贝" data-name="矩形 4 拷贝" class="cls-6" d="M877.552,89.668H808.163l19.713,14.1h69.388Z" style="stroke: inherit; filter: none; fill: inherit"/>
+      <path id="rect_4_copy" data-name="rect_4_copy_" class="cls-6" d="M877.552,89.668H808.163l19.713,14.1h69.388Z" style="stroke: inherit; filter: none; fill: inherit"/>
     </g>
-    <use transform="translate(-50.531)" xlink:href="#矩形_4_拷贝" style="stroke: #038bff; filter: none; fill: none"/>
-    <path id="形状_20" data-name="形状 20" class="cls-7" d="M841.2,102.762v2.015H827.185v-2.015H841.2Z" transform="translate(-50.531)"/>
-    <path id="形状_20_拷贝" data-name="形状 20 拷贝" class="cls-7" d="M827.518,102.908l-1.135,1.66-11.545-8,1.135-1.66Z" transform="translate(-50.531)"/>
-    <path id="形状_20_拷贝_2" data-name="形状 20 拷贝 2" class="cls-7" d="M1568.03,102.717v2.06h13.83v-2.06h-13.83Zm13.5,0.149,1.12,1.7,11.4-8.174-1.12-1.7Z" transform="translate(-50.531)"/>
-    <path id="形状_20_拷贝_3" data-name="形状 20 拷贝 3" class="cls-7" d="M1674.15,47.409V45.35h-13.83v2.059h13.83Zm-13.51-.149-1.12-1.7-11.39,8.174,1.12,1.7Z" transform="translate(-50.531)"/>
-    <path id="矩形_4_拷贝_11" data-name="矩形 4 拷贝 11" class="cls-3" d="M475.213,69.524H51.022l6.3,4.029H481.512Z" transform="translate(-50.531)"/>
-    <path id="形状_23_拷贝" data-name="形状 23 拷贝" class="cls-4" d="M302.963,69.526v1.239H607.31V69.526H302.963Z" transform="translate(-50.531)"/>
-    <path id="形状_20_拷贝_4" data-name="形状 20 拷贝 4" class="cls-7" d="M737.082,47.409V45.35h13.833v2.059H737.082Zm13.5-.149,1.12-1.7L763.1,53.738l-1.12,1.7Z" transform="translate(-50.531)"/>
+    <use transform="translate(-50.531)" xlink:href="#rect_4_copy" style="stroke: #038bff; filter: none; fill: none"/>
+    <path id="shape_20" data-name="shape 20" class="cls-7" d="M841.2,102.762v2.015H827.185v-2.015H841.2Z" transform="translate(-50.531)"/>
+    <path id="shape_20_copy" data-name="shape 20 copy" class="cls-7" d="M827.518,102.908l-1.135,1.66-11.545-8,1.135-1.66Z" transform="translate(-50.531)"/>
+    <path id="shape_20_copy_2" data-name="shape 20 copy 2" class="cls-7" d="M1568.03,102.717v2.06h13.83v-2.06h-13.83Zm13.5,0.149,1.12,1.7,11.4-8.174-1.12-1.7Z" transform="translate(-50.531)"/>
+    <path id="shape_20_copy_3" data-name="shape 20 copy 3" class="cls-7" d="M1674.15,47.409V45.35h-13.83v2.059h13.83Zm-13.51-.149-1.12-1.7-11.39,8.174,1.12,1.7Z" transform="translate(-50.531)"/>
+    <path id="rect_4_copy_11" data-name="rect_4_copy_ 11" class="cls-3" d="M475.213,69.524H51.022l6.3,4.029H481.512Z" transform="translate(-50.531)"/>
+    <path id="shape_23_copy" data-name="shape 23 copy" class="cls-4" d="M302.963,69.526v1.239H607.31V69.526H302.963Z" transform="translate(-50.531)"/>
+    <path id="shape_20_copy_4" data-name="shape 20 copy 4" class="cls-7" d="M737.082,47.409V45.35h13.833v2.059H737.082Zm13.5-.149,1.12-1.7L763.1,53.738l-1.12,1.7Z" transform="translate(-50.531)"/>
   </g>
-  <path id="形状_24" data-name="形状 24" class="cls-8" d="M489.986,50.49h261.1l59,43.973H875.36l8.786,5.025L1519.32,102l11.3-7.538h67.79l60.25-45.229h262.35V-44.993H491.241Z" transform="translate(-50.531)"/>
+  <path id="shape_24" data-name="shape 24" class="cls-8" d="M489.986,50.49h261.1l59,43.973H875.36l8.786,5.025L1519.32,102l11.3-7.538h67.79l60.25-45.229h262.35V-44.993H491.241Z" transform="translate(-50.531)"/>
 </svg>
