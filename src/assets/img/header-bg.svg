@@ -1,96 +1,52 @@
-<svg id="header-bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2289.349" height="104.781" viewBox="0 0 2289.349 104.781">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
-        stroke: #038bff;
-        stroke-width: 1px;
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
-        fill-rule: evenodd;
-      }
-
-      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
-        fill: #fff;
-      }
-
-      .cls-2, .cls-3, .cls-5, .cls-6 {
-        fill-opacity: 0;
-      }
-
-      .cls-2 {
-        filter: url(#filter);
-      }
-
-      .cls-5 {
-        filter: url(#filter-2);
-      }
-
-      .cls-6 {
-        filter: url(#filter-3);
-      }
-
-      .cls-7 {
-        fill: #00fcf9;
-      }
-
-      .cls-8 {
-        fill: #038bff;
-        fill-opacity: 0.72;
-        opacity: 0.2;
-      }
-    </style>
-    <filter id="filter" x="1511.97" y="89.656" width="89.09" height="14.125" filterUnits="userSpaceOnUse">
-      <feGaussianBlur result="blur" stdDeviation="6.667" in="SourceAlpha"/>
-      <feFlood result="flood" flood-color="#009bec" flood-opacity="0.3"/>
-      <feComposite result="composite-2" operator="out" in2="blur"/>
-      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
-      <feBlend result="blend" in2="SourceGraphic"/>
-    </filter>
-    <filter id="filter-2" x="884.25" y="95.719" width="638.72" height="8.062" filterUnits="userSpaceOnUse">
-      <feGaussianBlur result="blur" stdDeviation="6.667" in="SourceAlpha"/>
-      <feFlood result="flood" flood-color="#009bec" flood-opacity="0.3"/>
-      <feComposite result="composite-2" operator="out" in2="blur"/>
-      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
-      <feBlend result="blend" in2="SourceGraphic"/>
-    </filter>
-    <filter id="filter-3" x="808.156" y="89.656" width="89.094" height="14.125" filterUnits="userSpaceOnUse">
-      <feGaussianBlur result="blur" stdDeviation="6.667" in="SourceAlpha"/>
-      <feFlood result="flood" flood-color="#009bec" flood-opacity="0.3"/>
-      <feComposite result="composite-2" operator="out" in2="blur"/>
-      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
-      <feBlend result="blend" in2="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g id="group_2" data-name="组 2">
-    <path id="rect_3" data-name="rect 3" class="cls-1" d="M1920.43,47.364h-259.3l-79.09,56.4H827.185L750.1,47.364H489.8" transform="translate(-50.531)"/>
-    <g transform="translate(-50.531)" style="fill: #fff; filter: url(#filter)">
-      <path id="rect_4" data-name="rect 4" class="cls-2" d="M1531.68,89.668h69.39l-19.72,14.1h-69.39Z" style="stroke: inherit; filter: none; fill: inherit"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2408px" height="110px" viewBox="0 0 2408 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>header-bg</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="2408" height="110"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header-bg">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="base"></g>
+            <g id="content" mask="url(#mask-2)">
+                <g transform="translate(-25.000000, 0.000000)">
+                    <polygon id="base" fill="#003471" points="1672.358 51.324 1606.083 102.006 846.709 102.006 786.628 51.324 0 51.324 0 0 2458.985 0 2458.985 51.324"></polygon>
+                    <g id="group_2" stroke-width="1" fill="none" transform="translate(85.000000, 50.343000)">
+                        <polyline id="rect_3" stroke="#038BFF" points="1869.408 2.014 1610.108 2.014 1531.018 58.414 776.163 58.414 699.078 2.014 438.778 2.014"></polyline>
+                        <g id="编组" transform="translate(1460.938000, 44.318000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#000000">
+                            <polygon id="rect_4" points="19.72 0 89.11 0 69.39 14.1 0 14.1"></polygon>
+                        </g>
+                        <g id="rect_4-link" transform="translate(1460.938000, 44.318000)" stroke="#000000">
+                            <polygon id="rect_4" points="19.72 0 89.11 0 69.39 14.1 0 14.1"></polygon>
+                        </g>
+                        <polygon id="rect_4_copy_8" stroke="#038BFF" fill-opacity="0" fill="#FFFFFF" points="1732.358 24.174 2288.358 24.174 2282.058 28.203 1726.058 28.203"></polygon>
+                        <polygon id="rect_4_copy_7" stroke="#038BFF" fill-opacity="0" fill="#FFFFFF" points="1609.408 1.007 1870.408 1.007 1865.108 5.036 1604.108 5.036"></polygon>
+                        <polygon id="rect_4_copy_12" stroke="#038BFF" fill-opacity="0" fill="#FFFFFF" points="698.783 1.007 437.783 1.007 443.083 5.036 704.083 5.036"></polygon>
+                        <polygon id="shape_23" stroke="#038BFF" fill="#FFFFFF" points="2036.418 24.174 2036.418 25.18 1732.068 25.18 1732.068 24.174"></polygon>
+                        <g id="编组" transform="translate(833.228000, 50.361000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#000000">
+                            <polygon id="rect_4_copy_3" points="0 1.42108547e-14 638.73 1.007 629.03 8.057 11.012 8.057"></polygon>
+                        </g>
+                        <g id="rect_4_copy_3-link" transform="translate(833.228000, 50.361000)" stroke="#000000">
+                            <polygon id="rect_4_copy_3" points="0 1.42108547e-14 638.73 1.007 629.03 8.057 11.012 8.057"></polygon>
+                        </g>
+                        <g id="编组" transform="translate(757.141000, 44.318000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#000000">
+                            <polygon id="rect_4_copy" points="69.389 0 0 0 19.713 14.1 89.101 14.1"></polygon>
+                        </g>
+                        <g id="rect_4_copy-link" transform="translate(757.141000, 44.318000)" stroke="#000000">
+                            <polygon id="rect_4_copy" points="69.389 0 0 0 19.713 14.1 89.101 14.1"></polygon>
+                        </g>
+                        <polygon id="shape_20" fill="#00FCF9" points="790.178 57.412 790.178 59.427 776.163 59.427 776.163 57.412"></polygon>
+                        <polygon id="shape_20_copy" fill="#00FCF9" points="776.496 57.558 775.361 59.218 763.816 51.218 764.951 49.558"></polygon>
+                        <path d="M1517.008,57.367 L1517.008,59.427 L1530.838,59.427 L1530.838,57.367 L1517.008,57.367 Z M1530.508,57.516 L1531.628,59.216 L1543.028,51.042 L1541.908,49.342 L1530.508,57.516 Z" id="shape_20_copy_2" fill="#00FCF9"></path>
+                        <path d="M1623.128,2.059 L1623.128,0 L1609.298,0 L1609.298,2.059 L1623.128,2.059 Z M1609.618,1.91 L1608.498,0.21 L1597.108,8.384 L1598.228,10.084 L1609.618,1.91 Z" id="shape_20_copy_3" fill="#00FCF9"></path>
+                        <polygon id="rect_4_copy_11" stroke="#038BFF" fill-opacity="0" fill="#FFFFFF" points="424.191 24.174 1.42108547e-14 24.174 6.3 28.203 430.49 28.203"></polygon>
+                        <polygon id="shape_23_copy" stroke="#038BFF" fill="#FFFFFF" points="251.941 24.176 251.941 25.415 556.288 25.415 556.288 24.176"></polygon>
+                        <path d="M686.06,2.059 L686.06,0 L699.893,0 L699.893,2.059 L686.06,2.059 Z M699.56,1.91 L700.68,0.21 L712.078,8.388 L710.958,10.088 L699.56,1.91 Z" id="shape_20_copy_4" fill="#00FCF9"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
     </g>
-    <use transform="translate(-50.531)" xlink:href="#rect_4" style="stroke: #038bff; filter: none; fill: none"/>
-    <path id="rect_4_copy_8" data-name="rect_4_copy_ 8" class="cls-3" d="M1783.38,69.524h556l-6.3,4.029h-556Z" transform="translate(-50.531)"/>
-    <path id="rect_4_copy_7" data-name="rect_4_copy_ 7" class="cls-3" d="M1660.43,46.357h261l-5.3,4.029h-261Z" transform="translate(-50.531)"/>
-    <path id="rect_4_copy_12" data-name="rect_4_copy_ 12" class="cls-3" d="M749.805,46.357h-261l5.3,4.029h261Z" transform="translate(-50.531)"/>
-    <path id="shape_23" data-name="shape 23" class="cls-4" d="M2087.44,69.524V70.53H1783.09V69.524h304.35Z" transform="translate(-50.531)"/>
-    <g transform="translate(-50.531)" style="fill: #fff; filter: url(#filter-2)">
-      <path id="rect_4_copy_3" data-name="rect_4_copy_ 3" class="cls-5" d="M884.25,95.711l638.73,1.007-9.7,7.05H895.262Z" style="stroke: inherit; filter: none; fill: inherit"/>
-    </g>
-    <use transform="translate(-50.531)" xlink:href="#rect_4_copy_3" style="stroke: #038bff; filter: none; fill: none"/>
-    <g transform="translate(-50.531)" style="fill: #fff; filter: url(#filter-3)">
-      <path id="rect_4_copy" data-name="rect_4_copy_" class="cls-6" d="M877.552,89.668H808.163l19.713,14.1h69.388Z" style="stroke: inherit; filter: none; fill: inherit"/>
-    </g>
-    <use transform="translate(-50.531)" xlink:href="#rect_4_copy" style="stroke: #038bff; filter: none; fill: none"/>
-    <path id="shape_20" data-name="shape 20" class="cls-7" d="M841.2,102.762v2.015H827.185v-2.015H841.2Z" transform="translate(-50.531)"/>
-    <path id="shape_20_copy" data-name="shape 20 copy" class="cls-7" d="M827.518,102.908l-1.135,1.66-11.545-8,1.135-1.66Z" transform="translate(-50.531)"/>
-    <path id="shape_20_copy_2" data-name="shape 20 copy 2" class="cls-7" d="M1568.03,102.717v2.06h13.83v-2.06h-13.83Zm13.5,0.149,1.12,1.7,11.4-8.174-1.12-1.7Z" transform="translate(-50.531)"/>
-    <path id="shape_20_copy_3" data-name="shape 20 copy 3" class="cls-7" d="M1674.15,47.409V45.35h-13.83v2.059h13.83Zm-13.51-.149-1.12-1.7-11.39,8.174,1.12,1.7Z" transform="translate(-50.531)"/>
-    <path id="rect_4_copy_11" data-name="rect_4_copy_ 11" class="cls-3" d="M475.213,69.524H51.022l6.3,4.029H481.512Z" transform="translate(-50.531)"/>
-    <path id="shape_23_copy" data-name="shape 23 copy" class="cls-4" d="M302.963,69.526v1.239H607.31V69.526H302.963Z" transform="translate(-50.531)"/>
-    <path id="shape_20_copy_4" data-name="shape 20 copy 4" class="cls-7" d="M737.082,47.409V45.35h13.833v2.059H737.082Zm13.5-.149,1.12-1.7L763.1,53.738l-1.12,1.7Z" transform="translate(-50.531)"/>
-  </g>
-  <path id="shape_24" data-name="shape 24" class="cls-8" d="M489.986,50.49h261.1l59,43.973H875.36l8.786,5.025L1519.32,102l11.3-7.538h67.79l60.25-45.229h262.35V-44.993H491.241Z" transform="translate(-50.531)"/>
 </svg>

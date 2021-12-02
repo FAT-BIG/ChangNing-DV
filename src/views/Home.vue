@@ -2,7 +2,7 @@
   <div class="home">
     <GlobalHeader/>
     <div style="width: 25%;height: 240px;">
-      <card></card>
+      <card />
     </div>
 
   </div>
@@ -32,9 +32,9 @@ export default defineComponent({
 
   &::before,
   &::after {
-    position: absolute;
-    top: 2.4vw;
     content: '';
+    position: absolute;
+    top: unit(70);
     width: unit(152);
     height: unit(1280);
     background: url("../assets/img/main-boder.svg") no-repeat;

@@ -11,7 +11,7 @@
 
 import {defineComponent, ref, reactive, computed, nextTick, onMounted} from 'vue'
 import * as echarts from "echarts"
-import {ChartOption} from '../../../interface'
+import {ChartOption, BarItem} from '../../../interface/charts'
 import {resize} from '../_utils/resize'
 import {uuid} from '../_utils/uuid'
 
@@ -48,8 +48,17 @@ export default defineComponent({
       type: Object,
       default: () => {
         return {
-          names: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-          data: [120, 200, 150, 80, 70, 110, 130]
+          names: ['2012', '2013', '2014', '2015', '2016'],
+          data: [
+            {
+              name: 'Steppe',
+              value: [320, 332, 301, 334, 390]
+            },
+            {
+              name: 'Jerry',
+              value: [120, 600, 480, 97, 128]
+            }
+          ]
         }
       }
     },
@@ -61,7 +70,7 @@ export default defineComponent({
     colors: {
       type: Array,
       default: () => {
-        return ['rgba(24,144,255,.85)'] //'#00CE7D', '#F5A623',
+        return ['rgba(24,144,255,.85)', '#00CE7D', '#F5A623'] //'#00CE7D', '#F5A623',
       }
     },
     /**
@@ -72,7 +81,7 @@ export default defineComponent({
      */
     barMaxWidth: {
       type: Number,
-      default: 40
+      default: 24
     },
     dataZoom: {
       type: Array,
@@ -114,7 +123,7 @@ export default defineComponent({
   emits: ['click'],
   setup(props, ctx) {
     const chartId = uuid('chart-')
-    const option = reactive<ChartOption>({
+    const option = reactive({
       color: props.colors,
       tooltip: {
         show: true,
@@ -133,15 +142,15 @@ export default defineComponent({
       yAxis: {
         type: 'value'
       },
-      series: [
-        {
-          data: props.dataSource.data,
+      series: props.dataSource.data.map((item) => {
+        return {
+          name: item.name,
+          type: 'bar',
           barMaxWidth: props.barMaxWidth,
-          type: 'bar'
+          data: item.value
         }
-      ]
+      })
     })
-
     const chartInit = () => {
       const ele = document.getElementById(chartId)
       const resizeDiv = document.getElementById(chartId)
@@ -159,10 +168,12 @@ export default defineComponent({
 
     onMounted(() => {
       chartInit()
+      console.log(option.series)
     })
 
     return {
-      chartId
+      chartId,
+      option
     }
   }
 })

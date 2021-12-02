@@ -11,8 +11,8 @@ export default {
 <style lang="scss" scoped>
 .header{
   width: 80vw;
-  height: unit(88);
-  background: url("../../assets/img/header-bg.svg") no-repeat center;
+  height: unit(110);
+  background: url("src/assets/img/header-bg1.svg") no-repeat center;
   background-size: cover;
   margin: 0 auto;
 }
